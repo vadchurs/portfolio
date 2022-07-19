@@ -1,0 +1,118 @@
+
+.inp {
+    display: none;
+}
+
+.btn span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: black;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+.btn:hover {
+    background-color: purple;
+}
+
+.btn:hover span {
+    background-color: white;
+}
+
+
+.header {
+    height: 60px;
+    background-color: #333333;
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    transition: 0.5s;
+}
+.btn{
+    display: none;
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.4s;
+    z-index: 7;
+}
+
+.header nav {
+padding: 20px 0 20px 0;
+    transition: 0.9s;
+}
+
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header nav ul li a:hover {
+    color: blue;
+}
+
+.header nav ul li:first-child a {
+    margin-left: 0;
+}
+
+.header .active {
+    color: blue;
+}
+
+@media (max-width: 429px) {
+    .header nav ul  {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header nav {
+        padding: 0;
+    }
+    .header{
+        justify-content: center;
+        padding-right: 0;
+
+    }
+    .header nav ul li a {
+        margin-left: 0;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 430px) {
+   .header nav{
+       visibility: hidden;
+       transform: scale(0);
+   }
+    .header .btn {
+        display: block;
+    }
+    .inp:checked~.header {
+        height: 150px;
+    }
+    .inp:checked~.header nav {
+        visibility: visible;
+        transform: scale(1);
+    }
+}

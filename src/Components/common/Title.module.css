@@ -1,0 +1,21 @@
+.title {
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+    position: relative;
+    color: #333333;
+}
+
+.title:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: rgba(135,135,135,.5);
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+

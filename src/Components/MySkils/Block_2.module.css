@@ -1,0 +1,97 @@
+.section {
+    background-color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.skillsBlock {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills .skill {
+    position: relative;
+    margin-top: 15px;
+}
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    background-color: transparent;
+    font-size: 110px;
+}
+.html {
+    color: #E54C25;
+}
+.css {
+    color: #2077FE;
+}
+.js {
+    color: #FDE203;
+}
+.react {
+    color: #3399FD;
+}
+.nodeJs {
+    color: #438B3E;
+}
+.git {
+    color: #241F21;
+}
+
+.img:hover ~ .skillDiscription {
+    visibility: visible;
+    opacity: 1;
+}
+
+.skillDiscription {
+    position: absolute;
+    top: 115px;
+    left: -49px;
+    background-color: #464342;
+    width: 220px;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s all;
+    color: white;
+    padding: 10px;
+    z-index: 3;
+}
+
+.skillDiscription:after {
+    content: "";
+    top: -16px;
+    position: absolute;
+    display: block;
+    border: 8px solid transparent;
+    border-bottom-color: #464342;
+    left: 102px;
+}
+
+@media (max-width: 357px) {
+    .skills {
+        justify-content: center;
+    }
+    .skillDiscription {
+        width: 180px;
+        left: -30px;
+    }
+    .skillDiscription:after {
+        left: 83px;
+    }
+}
+
+
+
+
+
+
