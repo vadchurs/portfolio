@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a966157e.chunk.css",
+    "main.js": "/portfolio/static/js/main.c1b514c7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c1b514c7.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2601f1e9.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2601f1e9.js.map",
+    "static/js/2.573b2fbc.chunk.js": "/portfolio/static/js/2.573b2fbc.chunk.js",
+    "static/js/2.573b2fbc.chunk.js.map": "/portfolio/static/js/2.573b2fbc.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.5bbe7531f9978e3919532878942848c8.js": "/portfolio/precache-manifest.5bbe7531f9978e3919532878942848c8.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.a966157e.chunk.css.map": "/portfolio/static/css/main.a966157e.chunk.css.map",
+    "static/media/cropped-volcano-brandon-project.jpg": "/portfolio/static/media/cropped-volcano-brandon-project.bed05001.jpg",
+    "static/media/maxresdefault.jpg": "/portfolio/static/media/maxresdefault.3b9a5fbc.jpg",
+    "static/media/todo-list-850x476.jpg": "/portfolio/static/media/todo-list-850x476.3e497f21.jpg",
+    "static/media/vad.jpg": "/portfolio/static/media/vad.cab05f6a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2601f1e9.js",
+    "static/js/2.573b2fbc.chunk.js",
+    "static/css/main.a966157e.chunk.css",
+    "static/js/main.c1b514c7.chunk.js"
+  ]
+}
